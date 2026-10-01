@@ -1,0 +1,23 @@
+.calculator {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.output {
+  min-height: 1.5rem;
+}
+
+.result {
+  font-weight: 600;
+}
+
+.error {
+  color: #c00;
+}
